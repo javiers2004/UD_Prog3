@@ -84,7 +84,7 @@ public class Manager {
 		panelconducir.setLayout(null);
 		panelblanco.add(panelconducir);
 
-		ImageIcon icon = new ImageIcon("coche.png");
+		ImageIcon icon = new ImageIcon("Practicas/Practica00/coche.png");
 		ImageIcon imagen = new ImageIcon(icon.getImage().getScaledInstance(100,100,Image.SCALE_SMOOTH));
 		Image i2 = imagen.getImage();
 		ven1.setVisible(true);
