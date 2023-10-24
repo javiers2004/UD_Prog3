@@ -116,7 +116,7 @@ public class Manager {
 							if (car.getMiDireccionActual() > 360) {
 								car.setMiDireccionActual(car.getMiDireccionActual()-360);
 							}
-					}
+					} 
 					if ( car.getPosX() < 10|| car.getPosX() > 1430) {	
 						car.setMiDireccionActual(360-car.getMiDireccionActual());
 						if (car.getMiDireccionActual() < 0) {
