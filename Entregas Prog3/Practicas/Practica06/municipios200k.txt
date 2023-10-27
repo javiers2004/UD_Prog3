@@ -28,11 +28,11 @@
 28	Vigo	292374	Pontevedra	Galicia	11786	2554
 29	Vitoria	253672	Álava	Euskadi	11345	2164
 30	Zaragoza	673010	Zaragoza	Aragón	12576	1994
-31	Fuenlabrada	189891	ComunidaddeMadrid	ComunidaddeMadrid	11597	2386
+31	Fuenlabrada	189891	Madrid	Madrid	11597	2386
 32	SanSebastián	187849	Guipuzcoa	Euskadi	11654	2255
-33	Leganés	186660	ComunidaddeMadrid	ComunidaddeMadrid	11976	2295
-34	Getafe	183218	ComunidaddeMadrid	ComunidaddeMadrid	12137	2412
-35	AlcaládeHenares	196888	ComunidaddeMadrid	ComunidaddeMadrid	11945	2369
+33	Leganés	186660	Madrid	Madrid	11976	2295
+34	Getafe	183218	Madrid	Madrid	12137	2412
+35	AlcaládeHenares	196888	Madrid	Madrid	11945	2369
 36	Albacete	172357	Albacete	Castilla-LaMancha	12098	2158
 37	Burgos	173483	Burgos	CastillayLeón	11752	2455
 38	CastellóndelaPlana	171857	Castellón	ComunidadValenciana	11384	2198

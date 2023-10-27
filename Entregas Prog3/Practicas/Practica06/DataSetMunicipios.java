@@ -14,6 +14,7 @@ public class DataSetMunicipios {
 	 * separados por tabulador: código nombre habitantes provincia autonomía
 	 * @throws IOException	Si hay error en la lectura del fichero
 	 */
+	
 	public DataSetMunicipios( String nombreFichero ) throws IOException {
 		File ficMunicipios = new File( nombreFichero );
 		Scanner lecturaFic = null;
@@ -43,6 +44,14 @@ public class DataSetMunicipios {
 		}
 	}
 	
+	protected List<Municipio> getlMunicipios() {
+		return lMunicipios;
+	}
+
+	protected void setlMunicipios(List<Municipio> lMunicipios) {
+		this.lMunicipios = lMunicipios;
+	}
+
 	/** Devuelve la lista de municipios
 	 * @return	Lista de municipios
 	 */
@@ -69,12 +78,7 @@ public class DataSetMunicipios {
 	 * @param codigoMuni	Código del municipio a eliminar
 	 */
 	public void quitar( int codigoMuni ) {
-		for (int i=0; i<lMunicipios.size(); i++) {
-			if (lMunicipios.get(i).getCodigo() == codigoMuni) {
-				lMunicipios.remove(i);
-				return;
-			}
-		}
+		this.getListaMunicipios().remove(codigoMuni);
 	}
 	
 }
