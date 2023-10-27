@@ -155,7 +155,7 @@ public class Ventana extends JFrame{
 		}
 
 		
-		System.out.print(mapapoblacionporprovincia);
+		//System.out.print(mapapoblacionporprovincia);
 		modelo = new DefaultTableModel();
 		modelo.addColumn("Nombre");
 		modelo.addColumn("Habitantes");
@@ -336,14 +336,14 @@ public class Ventana extends JFrame{
 					if (respuesta == JOptionPane.YES_OPTION) {
 						int indice = 9999;
 						for (int i = 0; i<dsmunicipios.getListaMunicipios().size(); i++) {
-							System.out.println(tablacen.getValueAt(tablacen.getSelectedRow(), 0));
-							System.out.println(dsmunicipios.getListaMunicipios().get(i).getNombre());
+							//System.out.println(tablacen.getValueAt(tablacen.getSelectedRow(), 0));
+							//System.out.println(dsmunicipios.getListaMunicipios().get(i).getNombre());
 							if (tablacen.getValueAt( tablacen.getSelectedRow(), 0).equals(dsmunicipios.getListaMunicipios().get(i).getNombre())) {
 								indice = i;
 							}
 						}
 						if (indice != 9999) {
-							System.out.print(dsmunicipios.getListaMunicipios().get(indice));
+							//System.out.print(dsmunicipios.getListaMunicipios().get(indice));
 							dsmunicipios.quitar(indice);
 							
 						}
